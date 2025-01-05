@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Whirl</title>
+		<!-- SEO -->
+		<meta name="author" content="Nazar Pasechnyi" />
+		<meta name="description" content="This is my project" />
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="header__container">
+					<div class="header__inner">
+						<a href="#" class="header__logo">
+							<img
+								src="img/header/logo.svg"
+								alt="Logo"
+								width="106"
+								height="37"
+								loading="lazy"
+							/>
+						</a>
+						<div class="header__content">
+							<nav class="header__menu">
+								<ul class="header__list">
+									<li class="header__item">
+										<a href="#" class="header__link">Features</a>
+									</li>
+									<li class="header__item">
+										<a href="#" class="header__link">Pricing</a>
+									</li>
+									<li class="header__item">
+										<a href="#" class="header__link">Inegrations</a>
+									</li>
+									<li class="header__item">
+										<a href="#" class="header__link">Learn</a>
+									</li>
+								</ul>
+							</nav>
+							<div class="header__actions">
+								<input class="header__sign-in" type="button" value="Sign in" />
+								<input
+									class="header__book-demo btn"
+									type="button"
+									value="Book a demo"
+								/>
+							</div>
+						</div>
+						<div
+							id="burger"
+							role="button"
+							aria-expanded="false"
+							aria-label="Toggle menu"
+							tabindex="0"
+						>
+							<span></span>
+						</div>
+					</div>
+				</div>
+			</header>
+			<main class="main">
+				<section class="hero">
+					<div class="hero__container">
+						<div class="hero__inner">
+							<div class="hero__content">
+								<h1 class="hero__title">Your everyday tasks, automated.</h1>
+								<p class="hero__description">
+									Whirl lets you design and streamline your everyday tasks and
+									workflows in just a few clicks.
+								</p>
+								<div class="hero__actions">
+									<input
+										class="hero__book-demo btn"
+										type="button"
+										value="Book a demo"
+									/>
+									<input
+										class="hero__learn-more"
+										type="button"
+										value="Learn more"
+									/>
+								</div>
+							</div>
+							<div class="hero__image">
+								<img
+									src="img/hero/hero.svg"
+									alt="Hero"
+									width="452"
+									height="422"
+									loading="lazy"
+								/>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="companies">
+					<div class="companies__container">
+						<div class="companies__inner">
+							<h2 class="companies__title">Trusted by 50,000+ companies</h2>
+							<div class="companies__row">
+								<div class="comapanies__item">
+									<a href="#" class="companies__link">
+										<img
+											src="img/companies/focusfox.svg"
+											alt="Focusfox"
+											width="124"
+											height="33"
+											loading="lazy"
+										/>
+									</a>
+								</div>
+								<div class="comapanies__item">
+									<a href="#" class="companies__link">
+										<img
+											src="img/companies/now-in-tech.svg"
+											alt="Now in Tech"
+											width="159"
+											height="27"
+											loading="lazy"
+										/>
+									</a>
+								</div>
+								<div class="comapanies__item">
+									<a href="#" class="companies__link">
+										<img
+											src="img/companies/optimer.svg"
+											alt="Optimer"
+											width="148"
+											height="33"
+											loading="lazy"
+										/>
+									</a>
+								</div>
+								<div class="comapanies__item">
+									<a href="#" class="companies__link">
+										<img
+											src="img/companies/carded.svg"
+											alt="Carded"
+											width="117"
+											height="34"
+											loading="lazy"
+										/>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="features">
+					<div class="features__container">
+						<div class="features__inner">
+							<div class="features__row">
+								<div class="features__item features__item-light">
+									<img
+										src="img/features/light.svg"
+										alt="light"
+										height="55"
+										width="55"
+									/>
+									<h2 class="features__title">Fast. Really fast.</h2>
+									<p class="features__description">
+										Ut enim ad minim veniam, quis nostrud exercitation ullamco
+										laboris nisi ut aliquip ex ea commodo consequat.
+									</p>
+								</div>
+								<div class="features__item features__item-dollar">
+									<img
+										src="img/features/dollar.svg"
+										alt="light"
+										height="55"
+										width="55"
+									/>
+
+									<h2 class="features__title">More bang for buck.</h2>
+									<p class="features__description">
+										Ut enim ad minim veniam, quis nostrud exercitation ullamco
+										laboris nisi ut aliquip ex ea commodo consequat.
+									</p>
+								</div>
+								<div class="features__item features__item-ok">
+									<img
+										src="img/features/ok.svg"
+										alt="light"
+										height="55"
+										width="55"
+									/>
+
+									<h2 class="features__title">Safe and secure.</h2>
+									<p class="features__description">
+										Ut enim ad minim veniam, quis nostrud exercitation ullamco
+										laboris nisi ut aliquip ex ea commodo consequat.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="traits">
+					<div class="traits__container">
+						<div class="traits__inner">
+							<h2 class="traits__title">
+								We will take care of everything,<br />
+								so you can get back to relaxing.
+							</h2>
+							<div class="traits__row">
+								<div class="traits__content">
+									<div class="traits__accordions accordions">
+										<button class="accordions__btn">
+											<img
+												class="accordions__icon"
+												src="img/traits/icon-1.svg"
+												alt="Icon"
+												width="32"
+												height="32"
+												loading="lazy"
+											/>
+											<h3 class="accordions__title">Anti-loss technology</h3>
+											<img
+												class="accordions__arrow"
+												src="img/traits/arrow-down.svg"
+												alt="Arrow"
+												width="18"
+												height="10"
+												loading="lazy"
+											/>
+										</button>
+										<div class="accordions__text">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+											sed do eiusmod tempor incididunt ut labore et dolore magna
+											aliqua.
+										</div>
+										<button class="accordions__btn">
+											<img
+												class="accordions__icon"
+												src="img/traits/icon-2.svg"
+												alt="Icon"
+												width="32"
+												height="32"
+												loading="lazy"
+											/>
+											<h3 class="accordions__title">Exchange easily</h3>
+											<img
+												class="accordions__arrow"
+												src="img/traits/arrow-down.svg"
+												alt="Arrow"
+												width="18"
+												height="10"
+												loading="lazy"
+											/>
+										</button>
+										<div class="accordions__text">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+											sed do eiusmod tempor incididunt ut labore et dolore magna
+											aliqua.
+										</div>
+										<button class="accordions__btn">
+											<img
+												class="accordions__icon"
+												src="img/traits/icon-3.svg"
+												alt="Icon"
+												width="32"
+												height="32"
+												loading="lazy"
+											/>
+											<h3 class="accordions__title">Fully encrypted</h3>
+											<img
+												class="accordions__arrow"
+												src="img/traits/arrow-down.svg"
+												alt="Arrow"
+												width="18"
+												height="10"
+												loading="lazy"
+											/>
+										</button>
+										<div class="accordions__text">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+											sed do eiusmod tempor incididunt ut labore et dolore magna
+											aliqua.
+										</div>
+										<button class="accordions__btn">
+											<img
+												class="accordions__icon"
+												src="img/traits/icon-4.svg"
+												alt="Icon"
+												width="32"
+												height="32"
+												loading="lazy"
+											/>
+											<h3 class="accordions__title">Plenty of options</h3>
+											<img
+												class="accordions__arrow"
+												src="img/traits/arrow-down.svg"
+												alt="Arrow"
+												width="18"
+												height="10"
+												loading="lazy"
+											/>
+										</button>
+										<div class="accordions__text">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+											sed do eiusmod tempor incididunt ut labore et dolore magna
+											aliqua.
+										</div>
+									</div>
+								</div>
+								<div class="traits__image">
+									<img
+										src="img/traits/traits-main.svg"
+										alt="Monitor"
+										width="481"
+										height="479"
+										loading="lazy"
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="about">
+					<div class="about__container">
+						<div class="about__inner">
+							<h2 class="about__title title-h2">
+								What's Whirl<br />all about?
+							</h2>
+							<div class="about__row">
+								<div class="about__item item-about">
+									<img
+										class="item-about__icon"
+										src="img/about/icon-3.svg"
+										alt="Icon"
+										width="55"
+										height="55"
+									/>
+									<h3 class="item-about__title">Get daily alerts.</h3>
+									<p class="item-about__text">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+										do eiusmod tempor incididunt ut labore.
+									</p>
+								</div>
+								<div class="about__item item-about">
+									<img
+										class="item-about__icon"
+										src="img/about/icon-2.svg"
+										alt="Icon"
+										width="55"
+										height="55"
+									/>
+									<h3 class="item-about__title">Get daily alerts.</h3>
+									<p class="item-about__text">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+										do eiusmod tempor incididunt ut labore.
+									</p>
+								</div>
+								<div class="about__item item-about">
+									<img
+										class="item-about__icon"
+										src="img/about/icon-3.svg"
+										alt="Icon"
+										width="55"
+										height="55"
+									/>
+									<h3 class="item-about__title">Get daily alerts.</h3>
+									<p class="item-about__text">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+										do eiusmod tempor incididunt ut labore.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="around">
+					<div class="around__container">
+						<div class="around__inner">
+							<div class="around__image">
+								<img
+									src="img/around/image.svg"
+									alt="image"
+									width="382"
+									height="374"
+									loading="lazy"
+								/>
+							</div>
+							<div class="around__content">
+								<h2 class="around__title title-h2">
+									Set, forget, and then track.
+								</h2>
+								<p class="around__text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+									do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+								</p>
+								<ul class="around__list list-around">
+									<li class="around-item">Understand your options</li>
+									<li class="around-item">No lock-ins</li>
+									<li class="around-item">You own the shares</li>
+								</ul>
+								<input
+									class="around__demo-btn btn"
+									type="button"
+									value="Book a demo"
+								/>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="tasks">
+					<div class="tasks__container">
+						<div class="tasks__inner">
+							<h2 class="tasks__title title-h2">Your tasks, automated.</h2>
+							<p class="tasks__text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							</p>
+							<div class="tasks__row">
+								<div class="tasks__item">
+									<img
+										src="img/tasks/icon-1.svg"
+										alt="icon"
+										width="55"
+										height="55"
+										loading="lazy"
+									/>
+
+									<h3 class="tasks__subtitle">Learn your options.</h3>
+									<p class="tasks__description">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+										do eiusmod tempor.
+									</p>
+								</div>
+								<div class="tasks__item">
+									<img
+										src="img/tasks/icon-2.svg"
+										alt="icon"
+										width="55"
+										height="55"
+										loading="lazy"
+									/>
+
+									<h3 class="tasks__subtitle">Stay informed.</h3>
+									<p class="tasks__description">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+										do eiusmod tempor incididunt ut labore et doloretro.
+									</p>
+								</div>
+								<div class="tasks__item">
+									<img
+										src="img/tasks/icon-3.svg"
+										alt="icon"
+										width="55"
+										height="55"
+										loading="lazy"
+									/>
+
+									<h3 class="tasks__subtitle">Automate it all.</h3>
+									<p class="tasks__description">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+										do eiusmod tempor ipsum.
+									</p>
+								</div>
+								<div class="tasks__item">
+									<img
+										src="img/tasks/icon-4.svg"
+										alt="icon"
+										width="55"
+										height="55"
+										loading="lazy"
+									/>
+
+									<h3 class="tasks__subtitle">Stay informed.</h3>
+									<p class="tasks__description">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+										do eiusmod incididunt ut labore et consectetur.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="blog">
+					<div class="blog__container">
+						<div class="blog__inner">
+							<header class="blog__header">
+								<h2 class="blog__title title-h2">
+									Get smarter, with our blog.
+								</h2>
+								<a href="#" class="blog__all">See All Posts</a>
+							</header>
+							<div class="blog__row">
+								<a href="#" class="blog__item item-blog">
+									<img
+										src="img/blog/image-1.svg"
+										alt="Blog img"
+										class="item-blog__img"
+										width="355"
+										height="238"
+										loading="lazy"
+									/>
+									<div class="item-blog__content">
+										<div class="item-blog__category">Improvements</div>
+										<h3 class="item-blog__title">
+											Automating Daily Tasks from Your Phone
+										</h3>
+										<p class="item-blog__text">
+											Dicta nihil ratione corrupti. Aut dolorem dolores omnis
+											laboriosam ratione sequi. Provident ad sed velit. Est ea
+											ab.
+										</p>
+										<div class="item-blog__date">April 24, 2022</div>
+									</div>
+								</a>
+								<a href="#" class="blog__item item-blog">
+									<img
+										src="img/blog/image-2.svg"
+										alt="Blog img"
+										class="item-blog__img"
+										width="355"
+										height="238"
+										loading="lazy"
+									/>
+									<div class="item-blog__content">
+										<div class="item-blog__category">Tips & Tricks</div>
+										<h3 class="item-blog__title">
+											Can You Automate Group Learning?
+										</h3>
+										<p class="item-blog__text">
+											Dicta nihil ratione corrupti. Aut dolorem dolores omnis
+											laboriosam ratione sequi. Provident ad sed velit. Est ea
+											ab.
+										</p>
+										<div class="item-blog__date">April 24, 2022</div>
+									</div>
+								</a>
+								<a href="#" class="blog__item item-blog">
+									<img
+										src="img/blog/image-3.svg"
+										alt="Blog img"
+										class="item-blog__img"
+										width="355"
+										height="238"
+										loading="lazy"
+									/>
+									<div class="item-blog__content">
+										<div class="item-blog__category">News</div>
+										<h3 class="item-blog__title">
+											Our $3,000,000 B Round Investors
+										</h3>
+										<p class="item-blog__text">
+											Eos ipsum et est quis neque cum. Quis autem est eligendi
+											amet animi eaque. Itaque minus illo delectus vel vitae
+											dolores minus.
+										</p>
+										<div class="item-blog__date">April 24, 2022</div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="start">
+					<div class="start__container">
+						<div class="start__inner">
+							<section class="start__block">
+								<h2 class="block-start__title title-h2">
+									Get started with Whirl
+								</h2>
+								<p class="block-start__text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+									do eiusmod tempor incididunt.
+								</p>
+								<input
+									class="block-start__btn btn"
+									type="button"
+									value="Book a demo"
+								/>
+								<ul class="block-start__list list-start">
+									<li class="list-start__item">
+										<img
+											class="list-start__img"
+											src="img/start/arrow.svg"
+											alt="Arrow"
+											width="13"
+											height="7"
+											loading="lazy"
+										/>
+										<p class="list-start__text">Free 30-day trial</p>
+									</li>
+									<li class="list-start__item">
+										<img
+											class="list-start__img"
+											src="img/start/arrow.svg"
+											alt="Arrow"
+											width="13"
+											height="7"
+											loading="lazy"
+										/>
+										<p class="list-start__text">No credit-card required</p>
+									</li>
+								</ul>
+							</section>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer class="footer">
+				<div class="footer__container">
+					<div class="footer__inner">
+						<div class="footer__content content-footer">
+							<div class="content-footer__by">
+								<a href="#" class="content-footer__logo">
+									<img
+										src="img/header/logo.svg"
+										alt="Logo"
+										width="135"
+										height="47"
+										loading="lazy"
+									/>
+								</a>
+								<p class="content-footer__built">
+									Built by
+									<a class="content-footer__link" href="#">Nikolai Bain</a
+									>.<br />Powered by
+									<a class="content-footer__link" href="#">Webflow</a>.
+								</p>
+							</div>
+							<div class="content-footer__info">
+								<div class="content-footer__links">
+									<h3 class="links-footer__title">Info</h3>
+									<ul class="links-footer__list">
+										<li class="links-footer__item">
+											<a href="#" class="links-footer__link">Features</a>
+										</li>
+										<li class="links-footer__item">
+											<a href="#" class="links-footer__link">Pricing</a>
+										</li>
+										<li class="links-footer__item">
+											<a href="#" class="links-footer__link">Blog</a>
+										</li>
+										<li class="links-footer__item">
+											<a href="#" class="links-footer__link">Support</a>
+										</li>
+										<li class="links-footer__item">
+											<a href="#" class="links-footer__link"
+												>Terms & Conditions</a
+											>
+										</li>
+										<li class="links-footer__item">
+											<a href="#" class="links-footer__link">Privacy Policy</a>
+										</li>
+									</ul>
+								</div>
+								<div class="content-footer__links">
+									<h3 class="links-footer__title">Admin</h3>
+									<ul class="links-footer__list">
+										<li class="links-footer__item">
+											<a href="#" class="links-footer__link">Style Guide</a>
+										</li>
+										<li class="links-footer__item">
+											<a href="#" class="links-footer__link">Licenses</a>
+										</li>
+										<li class="links-footer__item">
+											<a href="#" class="links-footer__link">Instructions</a>
+										</li>
+										<li class="links-footer__item">
+											<a href="#" class="links-footer__link">Changelog</a>
+										</li>
+										<li class="links-footer__item">
+											<a href="#" class="links-footer__link">Password</a>
+										</li>
+										<li class="links-footer__item">
+											<a href="#" class="links-footer__link">404</a>
+										</li>
+									</ul>
+								</div>
+								<div class="content-footer__sign-up">
+									<h3 class="sign-up__title">Newsletter</h3>
+									<p class="sign-up__text">
+										Sign up for the latest news, company insights, and Whirl
+										updates.
+									</p>
+									<form class="sign-up__form" action="#">
+										<input
+											class="sign-up__email"
+											type="email"
+											placeholder="Your email"
+										/>
+									</form>
+								</div>
+							</div>
+						</div>
+						<div class="footer__down down-footer">
+							<p class="down-footer__text">
+								© 2022 Whirl. All Rights Reserved. Illustrations by
+								<a class="down-footer__link" href="#">Streamline</a>.
+							</p>
+							<ul class="down-footer__social social-list">
+								<li class="social-list__item">
+									<a href="#" class="social-list__link">
+										<img
+											class="social-list__img"
+											src="img/footer/twitter.svg"
+											alt="Twitter"
+											width="22"
+											height="23"
+											loading="lazy"
+										/>
+									</a>
+								</li>
+								<li class="social-list__item">
+									<a href="#" class="social-list__link">
+										<img
+											class="social-list__img"
+											src="img/footer/linkedin.svg"
+											alt="LinkedIn"
+											width="22"
+											height="23"
+											loading="lazy"
+										/>
+									</a>
+								</li>
+								<li class="social-list__item">
+									<a href="#" class="social-list__link">
+										<img
+											class="social-list__img"
+											src="img/footer/facebook.svg"
+											alt="Facebook"
+											width="22"
+											height="23"
+											loading="lazy"
+										/>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<!-- JS -->
+		<script src="js/main.js" defer></script>
+	</body>
+</html>
